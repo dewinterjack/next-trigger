@@ -7,7 +7,9 @@
     "dev": "pnpm next dev",
     "build": "pnpm next build",
     "start": "next start",
-    "trigger": "pnpm dlx trigger.dev@latest dev",
+    "trigger": "pnpm dlx trigger.dev@3.1.2 dev",
+    "dev:all": "pnpm turbo run dev trigger",
+    "deploy:trigger": "pnpm dlx trigger.dev@3.1.2 deploy",
     "clean": "git clean -xdf .cache .next .turbo .trigger node_modules"
   },
   "dependencies": {
