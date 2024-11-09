@@ -6,7 +6,7 @@ Run locally:
 
 Deploy:
 
-`pnpm dlx trigger.dev@latest deploy
+`pnpm dlx trigger.dev@latest deploy`
 
 Trigger:
 
