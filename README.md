@@ -1,12 +1,8 @@
 # trigger-ai
 
-Run trigger locally:
+Run locally:
 
-`pnpm dlx trigger.dev@latest dev`
-
-Run nextjs app:
-
-`pnpm run dev`
+`pnpm turbo run dev trigger`
 
 Trigger:
 

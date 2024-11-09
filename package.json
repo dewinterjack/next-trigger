@@ -4,10 +4,11 @@
   "private": true,
   "packageManager": "pnpm@9.12.1",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "pnpm next dev",
+    "build": "pnpm next build",
     "start": "next start",
-    "lint": "next lint"
+    "trigger": "pnpm dlx trigger.dev@latest dev",
+    "clean": "git clean -xdf .cache .next .turbo .trigger node_modules"
   },
   "dependencies": {
     "@trigger.dev/sdk": "^3.1.2",

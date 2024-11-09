@@ -1,0 +1,22 @@
+{
+    "$schema": "https://turborepo.org/schema.json",
+    "ui": "tui",
+    "tasks": {
+      "topo": {
+        "dependsOn": ["^topo"]
+      },
+      "build": {
+        "dependsOn": ["^build"],
+        "outputs": [".next/**", "!.next/cache/**", "next-env.d.ts"]
+      },
+      "dev": {
+        "dependsOn": ["^dev"],
+        "cache": false,
+        "persistent": true
+      },
+    
+      "clean": {
+        "cache": false
+      }
+    }
+  }
