@@ -2,7 +2,7 @@
 
 Run locally:
 
-`pnpm turbo run dev trigger`
+`pnpm dev:all`
 
 Trigger:
 
